@@ -1,0 +1,31 @@
+Terminals:
+find below reserve explore they compare each request above that them library after e-books pages had alongside along research over refer several is collect this investigate any for title an filter between browse amid librarian on beneath journals audiobook you to novel he what anything reserves number archival biology behind magazine little itself should need much renew recommend outside or dissertation may like recommendation has inside those Before get textbook him philosophy in reference with few against was it every verify written retrieve titles either can want through far check some look throughout she within locate near our genre will are history biography did without amidst upon more neither during many encyclopedia me a shelf under science around non-fiction catalog prefer across must of fiction author i manuscript shall scan periodical books from amongst article does volume theirs beside among borrow am rack copy navigate archive could despite these renewal circulation have another borrower checkout the were all their my do book publication access thesis mystery towards review search architecture availability articles magazines technology janesmith by psychology available her us regarding reading read give
+Variables:
+S NP Nominal VP PP Aux Det Noun Verb Pronoun Preposition
+Productions:
+S -> NP VP 
+S -> Aux NP VP 
+S -> VP 
+NP -> Pronoun 
+NP -> VP PP 
+NP -> Verb 
+NP -> VP NP 
+NP -> Noun NP 
+NP -> Det Nominal 
+NP -> Nominal 
+Nominal -> Noun 
+Nominal -> Nominal Noun 
+Nominal -> Nominal PP 
+VP -> Verb 
+VP -> Verb NP 
+VP -> Verb NP PP 
+VP -> Verb PP 
+VP -> Verb NP NP 
+VP -> VP PP 
+PP -> Preposition NP 
+Aux -> can | does | do | what | is | am | are | was | were | has | have | did | shall | should | must | may | could | will | had  
+Det -> that | this | the | a | an | these | any | every | some | few | many | several | much | more | little 
+Noun -> book | books | pages | number | library | novel | author | title | genre | magazine | article | biography | encyclopedia | textbook | reference | fiction | non-fiction | mystery | science | history | volume | manuscript | shelf | recommendation | publication | copy | periodical | publication | thesis | dissertation | catalog | borrower | circulation | reserves | e-books | audiobook | research | journals | manuscript | archival | archive | thesis | librarian | checkout | renewal | biology | titles | rack | philosophy | architecture | availability | articles | magazines | technology | janesmith | psychology | available | reading | read  
+Verb -> do | is | like | prefer | want | look | need | check | search | find | recommend | check | borrow | renew | reserve | request | explore | navigate | browse | access | retrieve | request | review | locate | collect | research | compare | filter | scan | investigate | review | verify | refer | written | check | recommend | get | reading | read | give  
+Pronoun -> i | it | me | you | she | he | you | him | they | them | itself | my | our | their | this | that | theirs | these | those | some | all | each | every | either | neither | another | anything | her | us  
+Preposition -> from | to | or | of | for | in | on | under | over | beside | among | between | across | through | against | alongside | above | below | inside | outside | within | towards | behind | Before | after | near | far | around | throughout | amidst | upon | behind | without | with | along | amid | during | inside | outside | beneath | amongst | within | beside | despite | by | regarding 
